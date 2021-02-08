@@ -71,12 +71,12 @@ Numpad4::Send,
 
 :r0O*:sec#::
 (
-\section{{}{{}\textrm{{}{}}{}}{left}{left}
+\section{{}\textrm{{}{}}{}}{left}{left}
 )
 
 :r0O*:subsec#::
 (
-\subsection{{}{{}\textrm{{}{}}{}}{left}{left}
+\subsection{{}\textrm{{}{}}{}}{left}{left}
 )
 
 :r0O*:qa#::
@@ -87,7 +87,7 @@ A:{up}
 
 :r0O*:url#::
 (
-\UrlBreaks{{}{}}{left}
+\url{{}{}}{left}
 )
 
 ;O: Omit the ending character of auto-replace hotstrings when the replacement is produced. This is useful when you want a hotstring to be kept unambiguous by still requiring an ending character, but don't actually want the ending character to be shown on the screen. For example, if :o:ar::aristocrat is a hotstring, typing "ar" followed by the spacebar will produce "aristocrat" with no trailing space, which allows you to make the word plural or possessive without having to press Backspace. Use O0 (the letter O followed by a zero) to turn this option back off
